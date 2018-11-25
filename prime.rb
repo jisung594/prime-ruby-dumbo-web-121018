@@ -3,7 +3,7 @@ def prime?(num)
     return false
   end
   
-  (2..num).each do |factor|
+  (2...num).each do |factor|
     if num % factor == 0
       return false
     end
